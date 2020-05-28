@@ -24,17 +24,22 @@
    <h1 >Kronos</h1> 
   </div>
 
-    <p id="build">Beta v0.5</p>
+    <p id="build">Developer Portal</p>
 
 
   <div id="info">
-    <p style="display:" inline;>Welcome to Kronos, a student organiser designed</p>
-    <p style="display:" inline;> for JRAHS's students and teachers, notifying </p>
-      <p style="display:" inline;>when to go to <b>class</b> or go to <b>break</b>.</p>
-  </div>
+    <p style="display:" inline;>Welcome to the Kronos Developer Portal</p>
+    <p style="display:" inline;>To enter Portal, Please type in password.</p>
 
-  <div >
-    <a href="times.html" class="buttonEnterClasses" style="font: Roboto !important">Enter Bell Times</a> 
+    <form id="form" onsubmit="return false;">
+    <input style="position:absolute; top:80%; left:5%; width:40%;" type="text" id="userInput" />
+    <input style="position:absolute; top:50%; left:5%; width:40%;" type="submit" onclick="othername();" />
+</form>
+
+function othername() {
+    var input = document.getElementById("userInput").value;
+    alert(input);
+}
   </div>
 
 
