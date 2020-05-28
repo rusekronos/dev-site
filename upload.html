@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link href="./Styles/main.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" href="./Styles/images/kronosicon.jpg" type="image/icon type">
+	<title>Upload iCal File</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The sidebar -->
+	
+<div class="sidebar">
+  <a href="./index.html" id="homeDiv"><i class="fa fa-fw fa-home" id="homeIcon"></i>Home</a> 
+  <a href="./times.html" id="loginDiv"><i class="fa fa-fw fa-bell" id="loginIcon"></i>Bell Times</a>
+  <a href="./calendar.html" id="classesDiv"><i class="fa fa-fw fa-calendar" id="classesIcon"></i>School Calendar</a>
+  <a href="./upload.html" id="settingsDiv" style="color: #D4AF37 !important;"><i class="fa fa-fw fa-arrow-up" id="settingsIcon"></i>Upload Timetable</a>
+  <a href="./settings.html" id="settingsDiv" style="margin-top: 15px"><i class="fa fa-fw fa-cog" id="settingsIcon"></i>Settings</a>
+  
+</div>
+
+</header>
+<main>
+<div class="upload">
+	<h4 style="font-size: 30px !important">Upload School Timetable: <b>(Under Construction)</b></h4>
+	<p>How to upload your timetable from Sentral:</p>
+	<p>1. Login to <a href="https://jamesruseahs.sentral.com.au/portal/login">Sentral</a></p>
+	<p>2. Go to the timetable tag on the left side of the page.</p>
+	<p>3. Click "Export as ICal"</p>
+	<p>4. Upload the downloaded iCal here.</p>
+	<p>5. Press Submit and use a now personalised Bell Timer</p>
+
+
+<form action="./action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+	</div>
+	
+</main>
+<script type="text/javascript" src="./Scripts/settingsTheme.js"></script>  
+	<script>console.log("Change Created")</script>
+
+</body>
+</html>
